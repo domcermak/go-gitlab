@@ -202,6 +202,7 @@ type ListProjectMergeRequestsOptions struct {
 	AssigneeID      *int       `url:"assignee_id,omitempty" json:"assignee_id,omitempty"`
 	MyReactionEmoji *string    `url:"my_reaction_emoji,omitempty" json:"my_reaction_emoji,omitempty"`
 	SourceBranch    *string    `url:"source_branch,omitempty" json:"source_branch,omitempty"`
+	TargetBranch    *string    `url:"target_branch,omitempty" json:"target_branch,omitempty"`
 }
 
 // ListProjectMergeRequests gets all merge requests for this project. The state
